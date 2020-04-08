@@ -1,0 +1,19 @@
+{
+  "name": "kuber-server",
+  "version": "1.0.0",
+  "description": "server for kuber clone coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siamor9724/kuber-server.git"
+  },
+  "author": "chan kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siamor9724/kuber-server/issues"
+  },
+  "homepage": "https://github.com/siamor9724/kuber-server#readme"
+}
