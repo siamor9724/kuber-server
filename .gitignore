@@ -1,0 +1,5 @@
+# dot env envrionment variables file
+.env
+
+#yarn-integirity file
+.yarn-integirity
