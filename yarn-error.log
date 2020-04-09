@@ -1,0 +1,70 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add graphql-tools merge-graphql-schema
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Asus\bin;C:\oracle\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NAT Service;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Java\jdk_1.8.0_112\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\nodejs;C:\Users\Asus\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\Asus\AppData\Local\Programs\Python\Python37-32;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.1.3\bin;C:\Program Files\Bandizip;C:\Users\Asus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Asus\AppData\Local\GitHubDesktop\bin;C:\Users\Asus\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Asus\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/merge-graphql-schema: Not found
+      at Request.params.callback [as _callback] (C:\Users\Asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66987:18)
+      at Request.self.callback (C:\Users\Asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (C:\Users\Asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (C:\Users\Asus\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "kuber-server",
+    "version": "1.0.0",
+    "description": "server for kuber clone coding",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/siamor9724/kuber-server.git"
+    },
+    "author": "chan kim",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/siamor9724/kuber-server/issues"
+    },
+    "homepage": "https://github.com/siamor9724/kuber-server#readme",
+    "devDependencies": {
+      "@types/cors": "^2.8.6",
+      "@types/helmet": "^0.0.45",
+      "@types/morgan": "^1.9.0",
+      "@types/node": "^13.11.0",
+      "nodemon": "^2.0.2",
+      "ts-node": "^8.8.2",
+      "tslint-config-prettier": "^1.18.0",
+      "typescript": "^3.8.3"
+    },
+    "scripts": {
+      "dev": "cd src && nodemon --exec ts-node index.ts -e ts,graphql"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "graphql-yoga": "^1.18.3",
+      "helmet": "^3.22.0",
+      "morgan": "^1.10.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
