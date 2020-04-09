@@ -3,3 +3,7 @@
 
 #yarn-integirity file
 .yarn-integirity
+
+# next.js build output
+.next
+.DS_Store 
