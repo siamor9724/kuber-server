@@ -15,7 +15,9 @@ server for nuber clone coding as kuber
 ---
 
 ### Private Resolvers:
-
+  
+  [ ] Generate JWT
+- [ ] Verifiy JWT
 - [ ] Verify Email
 - [ ] Get my Profile
 - [ ] Update my Profile
